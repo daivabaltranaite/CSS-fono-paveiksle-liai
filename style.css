@@ -1,0 +1,96 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(./images/bg1.png);
+}
+
+main {
+  width: 800px;
+  height: 1050px;
+  margin: 5vh auto;
+  background-color: #fff;
+  background-image: url(./images/bg2.png), url(./images/bg3.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: top left, bottom right;
+  -webkit-box-shadow: 0px 1px 5px 7px rgba(0, 0, 0, 0, 2);
+  box-shadow: 0px 1px 5px 7px rgba(0, 0, 0, 0.23);
+}
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
+
+header {
+  position: relative;
+  height: 300px;
+}
+
+header ul {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  position: relative;
+  padding: 2px 0;
+  font-size: 15px;
+  color: rgb(156, 141, 139)
+}
+
+li img {
+  height: 25px;
+  position: relative;
+  top: 5px;
+  padding-left: 10px;
+}
+
+.kortele {
+  padding: 0px 70px 0px 40px;
+}
+
+.pavadinimas {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: rgb(57, 176, 227);
+  border-bottom: 5px solid rgb(57, 176, 227);
+  display: inline-block;
+  margin: 15px 0;
+  letter-spacing: 5px;
+}
+
+.pavadinimo-kita-spalva {
+  font-weight: 400;
+  color: rgb(103, 110, 124);
+}
+
+.antraste {
+  width: 330px;
+  color: rgb(156, 141, 139);
+  font-size: 14px;
+}
+
+.tekstas {
+  color: rgb(156, 141, 139);
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.linija {
+  width: 330px;
+  border-bottom: 5px solid rgb(57, 176, 227);
+  margin-top: 30px;
+}
+
+.parasas {
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+  width: 330px;
+  padding-top: 60px;
+  color: rgb(135, 135, 135);
+  padding-left: 5px;
+}
